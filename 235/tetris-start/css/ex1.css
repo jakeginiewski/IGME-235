@@ -1,0 +1,43 @@
+/* Do everything in this file */
+h2, h3 {
+    border-bottom: 1px solid red;
+}
+
+h2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+figure {
+    float: right;
+    width: 40vw;
+    margin: 0 2vw;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+.tet {
+    float: left;
+    width: 10vw;
+    border: 1px solid black;
+}
+
+footer {
+    position: fixed;
+    float: right;
+    width: auto;
+    top: 0;
+    right: 0;
+
+    z-index: -9999;
+}
+
+footer::before {
+    content: "";
+    clear: both;
+    display: table;
+}

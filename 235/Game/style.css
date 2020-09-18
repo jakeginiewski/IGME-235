@@ -1,0 +1,36 @@
+h1 { 
+    color:#9d2d21;
+    font-family: 'Bebas Neue', sans-serif;
+    border-bottom: 1px solid #017b8b;
+    }
+h2 {
+    color: #017b8b;
+    font-family: 'Bebas Neue', sans-serif;
+}
+blockquote { 
+    background-color: lightgray;
+    padding: 1rem;
+    }
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+img.floaters {
+    float:right;
+    margin: 0 12px;
+}
+footer {
+    background-color: #017b8b;
+}
+a:link { color: #9d2d21; }
+a:visited { color: #7a241b; }
+a:focus { color: #d23c2c; }
+a:hover { color: #d23c2c; }
+a:active { color: #ea4332; }
+main, header, footer {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 80vw;
+    padding: 1rem;
+    background-color: #b2b2b2;
+}
